@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <aside class="aside">
+      <div class="logo__container">
+        <img
+          src="assets/odin-lined.png"
+          alt="odin logo image"
+          class="logo__image"
+        /><span class="logo__title">ODIN</span>
+      </div>
+    </aside>
+    <main class="main">
+      <form action="#" class="form">
+        <div class="form__inputs__container">
+          <p class="form__title">Let`s do this!</p>
+
+          <fieldset class="input__name">
+            <label for="name">FIRST NAME</label>
+            <input type="text" name="name" id="name" />
+          </fieldset>
+          <fieldset class="input__lastname">
+            <label for="last-name">LAST NAME</label>
+            <input type="text" name="last-name" id="last-name" />
+          </fieldset>
+          <fieldset class="input__email">
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email" />
+          </fieldset>
+          <fieldset class="input__phone">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" name="phone" id="phone" />
+          </fieldset>
+          <fieldset class="input__password">
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" />
+          </fieldset>
+          <fieldset class="input__password">
+            <label for="password-conf">CONFIRM PASSWORD</label>
+            <input type="password" name="password-conf" id="password-conf" />
+          </fieldset>
+        </div>
+
+        <button type="submit" class="form__submit__btn">Create Account</button>
+      </form>
+
+      <p class="have__account">
+        Already have an account? <a href="#">Log in</a>
+      </p>
+    </main>
+  </body>
 </html>
